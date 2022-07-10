@@ -53,7 +53,7 @@ jobs:
 
 ![hello-world.yml](./public/helloworld.png)
 
-#### Hello-world v2
+#### Hello-world v2 (Runner에 저장소 생성)
 
 ```yml
   name: Github-Checkout
@@ -85,3 +85,7 @@ jobs:
       - name: ls-al
         run: ls -al
 ```
+
+### Reference
+- <a href="https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows">Github Event Type</a>
+- <a href="https://docs.github.com/es/actions/learn-github-actions/contexts">Github Env Context</a>
